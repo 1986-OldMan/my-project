@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    background-color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.form {
+    display: grid;
+    grid-area: 7/5/2/6;
+    row-gap: 5px;
+    border: 10px;
+    width: 395px;
+    background-color: orange;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    box-shadow: 10px 12px 20px -6px #4e4848;
+
+}
+
+.label-name {
+    display: grid;
+    padding: 1px;
+
+}
+
+.input-name {
+    display: grid;
+    background-color: antiquewhite;
+    font-size: 17px;
+    resize: none;
+    outline: none;
+    border: 3px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding: 7px;
+}
+
+.label-email {
+    display: grid;
+    padding: 1px;
+}
+
+.input-email {
+    display: grid;
+    background-color: antiquewhite;
+    font-size: 17px;
+    resize: none;
+    outline: none;
+    border: 3px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding: 7px;
+}
+
+.label-pwd {
+    display: grid;
+    padding: 1px;
+}
+
+.input-pwd {
+    display: grid;
+    background-color: antiquewhite;
+    font-size: 17px;
+    border: none;
+    resize: none;
+    outline: none;
+    border: 3px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding: 7px;
+}
+
+.label-pwd2 {
+    display: grid;
+    padding: 1px;
+}
+
+.input-pwd2 {
+    display: grid;
+    background-color: antiquewhite;
+    font-size: 17px;
+    border: none;
+    resize: none;
+    outline: none;
+    border: 3px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding: 7px;
+}
+
+.form-button {
+    display: flex;
+    background-color: black;
+    color: antiquewhite;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-radius: 3px;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    padding: 9px 0 9px 0;
+}
+
+.form-button:hover {
+    background-color: black;
+    transition: 0.2s;
+    color: orange;
+    cursor: pointer;
+}
+
+.Already {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 16px;
+    font-size: 19px;
+    background-color: orange;
+    border: none;
+    text-decoration: underline 2px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: blue;
+
+}
+
+.Already:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    color: rgb(8, 8, 136);
+}
