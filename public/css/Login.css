@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    background-color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.form {
+    display: grid;
+    grid-area: 7/5/3/6;
+    row-gap: 5px;
+    border: 10px;
+    width: 390px;
+    background-color: orange;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    box-shadow: 10px 12px 20px -6px #4e4848;
+
+}
+
+
+.label-email {
+    display: grid;
+    padding: 3px;
+
+
+}
+
+.input-email {
+    display: grid;
+    background-color: antiquewhite;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+    border: 3px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding: 10px;
+
+}
+
+.label-pwd {
+    display: grid;
+    padding: 3px;
+
+
+}
+
+.input-pwd {
+    display: grid;
+    background-color: antiquewhite;
+    font-size: 16px;
+    border: none;
+    resize: none;
+    outline: none;
+    border: 3px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding: 10px;
+
+}
+
+
+.Login {
+    display: flex;
+    background-color: black;
+    color: antiquewhite;
+    margin-top: 10px;
+    font-size: 21px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-radius: 2px;
+    justify-self: center;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+
+
+}
+
+.Login:hover {
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+}
+
+.Forgot {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -15px;
+    font-size: 19px;
+    background-color: orange;
+    border: none;
+    text-decoration: underline 2px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: blue;
+}
+
+.Forgot:hover {
+    transition: 0.3s;
+    color: rgb(8, 8, 136);
+    cursor: pointer;
+}
+
+.remember {
+    display: block;
+    padding-left: 33px;
+    text-indent: -15px;
+    padding-top: 15px;
+}
+
+.input2[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -23px;
+}
