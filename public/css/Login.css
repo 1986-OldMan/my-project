@@ -95,6 +95,7 @@ body {
     text-align: center;
     justify-content: center;
     padding: 10px 0 10px 0;
+    border-radius: 5px;
 
 
 }
@@ -131,6 +132,11 @@ body {
     padding-top: 15px;
 }
 
+.remember:hover {
+    color: black;
+    cursor: pointer;
+}
+
 .input2[type=checkbox] {
     width: 14px;
     height: 14px;
@@ -139,4 +145,8 @@ body {
     vertical-align: bottom;
     position: relative;
     top: -23px;
+}
+
+.input2:hover {
+    cursor: pointer;
 }
