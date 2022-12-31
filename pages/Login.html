@@ -9,6 +9,39 @@
      <title>Login page</title>
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Gold era</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      My account
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./SingUp.html">Sing up</a></li>
+                      <li><a class="dropdown-item" href="./Login.html">Login</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Settings</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">New products(coming soon)</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-xl-2 w-100" type="search" placeholder="Search" aria-label="Search">
+                  <button type="button" class="btn btn-dark" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
 
         <form class="form">
             <label class="label-email" for="email">Email:</label>
