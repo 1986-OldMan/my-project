@@ -9,7 +9,7 @@
 body {
     display: grid;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
     background-color: whitesmoke;
@@ -19,7 +19,7 @@ body {
 
 .form {
     display: grid;
-    grid-area: 7/5/3/6;
+    grid-area: 3/5/3/6;
     row-gap: 5px;
     border: 10px;
     width: 390px;
@@ -89,13 +89,14 @@ body {
     margin-top: 10px;
     font-size: 21px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    border-radius: 2px;
     justify-self: center;
     width: 50%;
+    height: 75%;
     text-align: center;
     justify-content: center;
     padding: 10px 0 10px 0;
     border-radius: 5px;
+    font-size: 18px;
 
 
 }
@@ -149,4 +150,9 @@ body {
 
 .input2:hover {
     cursor: pointer;
+}
+
+.bg-body-tertiary {
+    display: grid;
+    grid-area: 1/1/1/11;
 }
